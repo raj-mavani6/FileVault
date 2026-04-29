@@ -1,0 +1,89 @@
+@model ContactViewModel
+@{ ViewData["Title"] = "Contact Us"; }
+
+<section class="fv-page-header text-center">
+    <div class="container">
+        <h1 class="fv-page-title fv-animate-slide-up">Contact Us</h1>
+        <p class="fv-section-subtitle fv-animate-slide-up mx-auto" style="animation-delay:0.1s; max-width: 600px;">
+            Have questions or need support? Our team is here to help you get the most out of FileVault.
+        </p>
+    </div>
+</section>
+
+<section class="fv-section pt-0">
+    <div class="container">
+        <!-- Quick Contact Cards -->
+        <div class="row g-4 mb-5">
+            <div class="col-md-4 fv-animate-on-scroll">
+                <div class="fv-feature-card text-center">
+                    <div class="fv-feature-icon mx-auto"><i class="bi bi-envelope-at-fill"></i></div>
+                    <h6 class="fv-label">Email Support</h6>
+                    <p class="fw-700 mb-0">support@filevault.io</p>
+                </div>
+            </div>
+            <div class="col-md-4 fv-animate-on-scroll" style="animation-delay: 0.1s;">
+                <div class="fv-feature-card text-center">
+                    <div class="fv-feature-icon mx-auto"><i class="bi bi-chat-dots-fill"></i></div>
+                    <h6 class="fv-label">Live Chat</h6>
+                    <p class="fw-700 mb-0">Mon - Fri, 9am - 5pm EST</p>
+                </div>
+            </div>
+            <div class="col-md-4 fv-animate-on-scroll" style="animation-delay: 0.2s;">
+                <div class="fv-feature-card text-center">
+                    <div class="fv-feature-icon mx-auto"><i class="bi bi-geo-alt-fill"></i></div>
+                    <h6 class="fv-label">Headquarters</h6>
+                    <p class="fw-700 mb-0">Silicon Valley, CA</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-7 fv-animate-on-scroll">
+                <div class="fv-card p-5">
+                    <div class="text-center mb-4">
+                        <h3 class="fw-900">Send us a Message</h3>
+                        <p class="opacity-75">Fill out the form below and we'll get back to you within 24 hours.</p>
+                    </div>
+                    
+                    <form asp-action="Contact" method="post">
+                        @Html.AntiForgeryToken()
+                        <div asp-validation-summary="All" class="text-danger mb-4"></div>
+                        
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="fv-label" asp-for="Name">Your Name</label>
+                                    <input asp-for="Name" class="form-control fv-input" placeholder="John Doe" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="fv-label" asp-for="Email">Email Address</label>
+                                    <input asp-for="Email" class="form-control fv-input" placeholder="john@example.com" />
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label class="fv-label" asp-for="Subject">Subject</label>
+                            <input asp-for="Subject" class="form-control fv-input" placeholder="How can we help?" />
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label class="fv-label" asp-for="Message">Message</label>
+                            <textarea asp-for="Message" class="form-control fv-input" rows="5" placeholder="Tell us more about your inquiry..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn fv-btn-primary btn-lg w-100 py-3">
+                            <i class="bi bi-send-fill me-2"></i>Dispatch Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts { 
+    <script src="~/js/dashboard.js"></script> 
+}

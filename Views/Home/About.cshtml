@@ -1,0 +1,99 @@
+@{ ViewData["Title"] = "About FileVault"; }
+
+<section class="fv-page-header text-center">
+    <div class="container">
+        <h1 class="fv-page-title fv-animate-slide-up">About FileVault</h1>
+        <p class="fv-section-subtitle fv-animate-slide-up mx-auto" style="animation-delay:0.1s; max-width: 700px;">
+            The next generation of private, secure, and beautiful cloud storage.
+        </p>
+    </div>
+</section>
+
+<section class="fv-section pt-0">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <!-- Mission Statement -->
+                <div class="fv-card p-5 mb-5 fv-animate-on-scroll text-center">
+                    <div class="fv-feature-icon mx-auto mb-4" style="background: var(--accent); color: white;">
+                        <i class="bi bi-heart-fill"></i>
+                    </div>
+                    <h2 class="fw-900 mb-4">Our Mission</h2>
+                    <p class="lead opacity-75 mx-auto" style="max-width: 800px;">
+                        At FileVault, we believe that your data is your most valuable asset. Our mission is to provide a storage platform that doesn't just hold your files, but protects them with state-of-the-art security while offering a user experience that is both fluid and inspiring.
+                    </p>
+                </div>
+
+                <!-- Key Pillars -->
+                <div class="row g-4 mb-5">
+                    <div class="col-md-4 fv-animate-on-scroll" style="animation-delay: 0.1s;">
+                        <div class="fv-feature-card text-center h-100">
+                            <div class="fv-feature-icon mx-auto"><i class="bi bi-shield-lock-fill"></i></div>
+                            <h5 class="fw-800">Privacy First</h5>
+                            <p class="opacity-75">We don't just encrypt your data; we build our architecture around the principle of zero-knowledge and total user control.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 fv-animate-on-scroll" style="animation-delay: 0.2s;">
+                        <div class="fv-feature-card text-center h-100">
+                            <div class="fv-feature-icon mx-auto"><i class="bi bi-cpu"></i></div>
+                            <h5 class="fw-800">Performance</h5>
+                            <p class="opacity-75">Utilizing MongoDB GridFS and chunked streaming, we handle files of any size with lightning speed and zero memory bloat.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 fv-animate-on-scroll" style="animation-delay: 0.3s;">
+                        <div class="fv-feature-card text-center h-100">
+                            <div class="fv-feature-icon mx-auto"><i class="bi bi-palette-fill"></i></div>
+                            <h5 class="fw-800">Design Driven</h5>
+                            <p class="opacity-75">Aesthetics are never an afterthought. We've crafted the Sienna & Cream design system to make management a joy.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Community & Growth -->
+                <div class="fv-card p-5 mb-5 fv-animate-on-scroll">
+                    <div class="row align-items-center g-5">
+                        <div class="col-lg-6">
+                            <h3 class="fw-900 mb-4">Built for Everyone</h3>
+                            <p class="mb-4 opacity-75">
+                                Whether you're a photographer looking to store RAW assets, a developer managing code snippets, or a student organizing research—FileVault is tailored to adapt to your unique workflow.
+                            </p>
+                            <div class="d-flex gap-4 mb-4">
+                                <div class="text-center">
+                                    <div class="fw-900 fs-2 text-accent">99.9%</div>
+                                    <div class="x-small fw-800 opacity-50">UPTIME</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="fw-900 fs-2 text-accent">256-bit</div>
+                                    <div class="x-small fw-800 opacity-50">ENCRYPTION</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="fw-900 fs-2 text-accent">24/7</div>
+                                    <div class="x-small fw-800 opacity-50">MONITORING</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="p-4 rounded-4" style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-color);">
+                                <h5 class="fw-800 mb-3"><i class="bi bi-globe2 me-2 text-accent"></i>Global Infrastructure</h5>
+                                <p class="small opacity-75 mb-0">
+                                    Our distributed storage nodes ensure that your data is always close to you, minimizing latency and maximizing reliability. We leverage regional clusters to comply with local data sovereignty laws while maintaining a unified global experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Final CTA -->
+                <div class="text-center py-5 fv-animate-on-scroll">
+                    <h2 class="fw-900 mb-3">Join the Future of Storage</h2>
+                    <p class="opacity-75 mb-4 mx-auto" style="max-width: 600px;">Experience a platform that respects your time, your files, and your privacy.</p>
+                    <a href="/Auth/Register" class="btn fv-btn-primary btn-lg px-5">Get Started for Free</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts { 
+    <script src="~/js/dashboard.js"></script> 
+}

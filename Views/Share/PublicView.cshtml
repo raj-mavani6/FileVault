@@ -1,0 +1,31 @@
+@model ShareAccessViewModel
+@{ ViewData["Title"] = "Shared File"; }
+<section class="fv-auth-section">
+<div class="container"><div class="row justify-content-center"><div class="col-md-5 fv-animate-slide-up">
+<div class="fv-card fv-auth-card p-4 p-md-5 text-center">
+    <i class="bi bi-share-fill fs-1 tw-text-accent"></i>
+    <h3 class="mt-3">Shared File</h3>
+    @if (Model.ErrorMessage != null)
+    {
+        <div class="alert alert-danger mt-3">@Model.ErrorMessage</div>
+    }
+    else
+    {
+        <div class="mt-3">
+            <p class="mb-1"><strong>@Model.FileName</strong></p>
+            <p class="fv-text-muted small">@Model.FileSize</p>
+        </div>
+        @if (Model.RequiresPassword)
+        {
+            <form method="post" asp-action="PublicViewAuth" class="mt-3">
+                <div class="mb-3"><input type="password" name="password" class="form-control fv-input" placeholder="Enter password" required /></div>
+                <button type="submit" class="btn fv-btn-primary w-100"><i class="bi bi-unlock me-2"></i>Access File</button>
+            </form>
+        }
+        else if (Model.AllowDownload)
+        {
+            <a href="/s/@Model.Token/download" class="btn fv-btn-primary btn-lg mt-3"><i class="bi bi-download me-2"></i>Download</a>
+        }
+    }
+</div>
+</div></div></div></section>

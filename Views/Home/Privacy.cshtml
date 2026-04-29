@@ -1,0 +1,89 @@
+@{ ViewData["Title"] = "Privacy Policy"; }
+
+<section class="fv-page-header text-center">
+    <div class="container">
+        <h1 class="fv-page-title fv-animate-slide-up">Privacy Policy</h1>
+        <p class="fv-section-subtitle fv-animate-slide-up mx-auto" style="animation-delay:0.1s; max-width: 600px;">
+            Your privacy is our core principle. Understand how we manage, protect, and respect your data.
+        </p>
+    </div>
+</section>
+
+<section class="fv-section pt-0">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 fv-animate-on-scroll">
+                <div class="fv-card p-5">
+                    <div class="mb-5">
+                        <h3 class="fw-900 mb-3"><i class="bi bi-info-circle me-2 text-accent"></i>1. Information Collection</h3>
+                        <p class="opacity-75 mb-3">
+                            We collect information that you provide directly to us when you create an account, such as your full name, email address, and encrypted credentials. Additionally, we may collect:
+                        </p>
+                        <ul class="list-unstyled opacity-75 ps-3">
+                            <li class="mb-2"><i class="bi bi-dot text-accent"></i><strong>Usage Data:</strong> Details about how you interact with our platform (e.g., upload frequency, file types).</li>
+                            <li class="mb-2"><i class="bi bi-dot text-accent"></i><strong>Device Data:</strong> IP addresses, browser types, and operating system versions for security auditing.</li>
+                            <li class="mb-2"><i class="bi bi-dot text-accent"></i><strong>Metadata:</strong> File names, sizes, and upload timestamps necessary for storage management.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-5">
+                        <h3 class="fw-900 mb-3"><i class="bi bi-shield-shaded me-2 text-accent"></i>2. Data Encryption & Security</h3>
+                        <p class="opacity-75 mb-3">
+                            Security is not a feature; it's our foundation. We employ multi-layered security protocols to safeguard your assets:
+                        </p>
+                        <ul class="list-unstyled opacity-75 ps-3">
+                            <li class="mb-2"><i class="bi bi-shield-check text-accent me-2"></i><strong>At Rest:</strong> All files are stored using industry-standard AES-256 encryption.</li>
+                            <li class="mb-2"><i class="bi bi-shield-check text-accent me-2"></i><strong>In Transit:</strong> Data moving between your device and our servers is protected by TLS 1.3 encryption.</li>
+                            <li class="mb-2"><i class="bi bi-shield-check text-accent me-2"></i><strong>Zero-Peeking:</strong> Our administrators cannot access the contents of your private files.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-5">
+                        <h3 class="fw-900 mb-3"><i class="bi bi-clock-history me-2 text-accent"></i>3. Data Retention & Deletion</h3>
+                        <p class="opacity-75">
+                            We retain your personal data and files for as long as your account is active. When you delete a file, it is moved to a "Trash" state for 30 days (unless you choose to purge it immediately). Upon permanent deletion, the data is wiped from our primary database and GridFS storage nodes.
+                        </p>
+                    </div>
+
+                    <div class="mb-5">
+                        <h3 class="fw-900 mb-3"><i class="bi bi-person-check me-2 text-accent"></i>4. Your Privacy Rights</h3>
+                        <p class="opacity-75 mb-3">
+                            Regardless of your location, we provide global privacy rights including:
+                        </p>
+                        <div class="row g-4 mt-1">
+                            <div class="col-md-6">
+                                <div class="p-3 rounded-4" style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-color);">
+                                    <h6 class="fw-800">Right to Access</h6>
+                                    <p class="small mb-0 opacity-75">Request a copy of the personal data we hold about you at any time.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="p-3 rounded-4" style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-color);">
+                                    <h6 class="fw-800">Right to Erasure</h6>
+                                    <p class="small mb-0 opacity-75">Request that we delete all your personal data and associated files.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-5">
+                        <h3 class="fw-900 mb-3"><i class="bi bi-share-fill me-2 text-accent"></i>5. Third-Party Services</h3>
+                        <p class="opacity-75">
+                            We do not sell your data. We only share information with trusted service providers who help us operate our infrastructure (e.g., MongoDB Atlas for database hosting) and only under strict confidentiality agreements.
+                        </p>
+                    </div>
+
+                    <div class="text-center pt-5 border-top" style="border-color: var(--border-color) !important;">
+                        <h5 class="fw-900 mb-2">Questions?</h5>
+                        <p class="opacity-75 mb-4">Contact our Data Protection Officer at privacy@filevault.io</p>
+                        <p class="small text-muted">Last Updated: April 27, 2026 · Version 2.0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts { 
+    <script src="~/js/dashboard.js"></script> 
+}

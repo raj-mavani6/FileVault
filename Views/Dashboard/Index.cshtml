@@ -1,0 +1,88 @@
+@model DashboardViewModel
+@{ Layout = "_AppLayout"; ViewData["Title"] = "Dashboard"; }
+
+<div class="fv-page-top mb-4">
+    <h1 class="fv-heading">Dashboard</h1>
+    <a href="/Files/Upload" class="btn fv-btn-primary"><i class="bi bi-cloud-arrow-up me-2"></i>Upload Files</a>
+</div>
+
+<!-- Stats Cards -->
+<div class="row g-4 mb-5">
+    <div class="col-sm-6 col-xl-3 fv-animate-on-scroll">
+        <div class="fv-stat-glass">
+            <div class="fv-stat-card-icon"><i class="bi bi-file-earmark-fill"></i></div>
+            <div>
+                <div class="fv-stat-number" data-count="@Model.TotalFiles">@Model.TotalFiles</div>
+                <div class="fv-stat-label">Total Files</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-xl-3 fv-animate-on-scroll">
+        <div class="fv-stat-glass">
+            <div class="fv-stat-card-icon"><i class="bi bi-hdd-stack-fill"></i></div>
+            <div>
+                <div class="fv-stat-number">@Model.StorageUsedFormatted</div>
+                <div class="fv-stat-label">Storage Used</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-xl-3 fv-animate-on-scroll">
+        <div class="fv-stat-glass">
+            <div class="fv-stat-card-icon"><i class="bi bi-share-fill"></i></div>
+            <div>
+                <div class="fv-stat-number" data-count="@Model.SharedCount">@Model.SharedCount</div>
+                <div class="fv-stat-label">Shared Links</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-xl-3 fv-animate-on-scroll">
+        <div class="fv-stat-glass">
+            <div class="fv-stat-card-icon"><i class="bi bi-trash3-fill"></i></div>
+            <div>
+                <div class="fv-stat-number" data-count="@Model.TrashCount">@Model.TrashCount</div>
+                <div class="fv-stat-label">In Trash</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Recent Files -->
+<div class="fv-card p-4 fv-animate-on-scroll">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h5 class="mb-0"><i class="bi bi-clock-history me-2"></i>Recent Files</h5>
+        <a href="/Files" class="fv-link small">View All →</a>
+    </div>
+    @if (Model.RecentFiles.Any())
+    {
+    <div class="fv-scroll-wrapper">
+        <div class="table-responsive">
+            <table class="table fv-table mb-0">
+                <thead><tr><th>File</th><th>Size</th><th>Uploaded</th><th></th></tr></thead>
+                <tbody>
+                @foreach (var file in Model.RecentFiles)
+                {
+                    <tr class="fv-animate-fade-in">
+                        <td><i class="bi @file.FileIcon me-2 tw-text-accent"></i>@file.FileName</td>
+                        <td class="fv-text-muted">@file.SizeFormatted</td>
+                        <td class="fv-text-muted">@file.CreatedAt.ToString("MMM dd, yyyy")</td>
+                        <td class="text-end">
+                            <a href="/Files/Details/@file.Id" class="btn btn-sm fv-btn-icon" title="Details"><i class="bi bi-eye"></i></a>
+                            <a href="/Files/Download/@file.Id" class="btn btn-sm fv-btn-icon" title="Download"><i class="bi bi-download"></i></a>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    }
+    else
+    {
+        <div class="fv-empty-state">
+            <i class="bi bi-cloud-arrow-up fs-1"></i>
+            <p class="mt-2 mb-0">No files yet. <a href="/Files/Upload" class="fv-link">Upload your first file</a></p>
+        </div>
+    }
+</div>
+
+@section Scripts { <script src="~/js/dashboard.js"></script> }

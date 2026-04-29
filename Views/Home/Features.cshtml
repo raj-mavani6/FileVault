@@ -1,0 +1,40 @@
+@{ ViewData["Title"] = "Features"; }
+<section class="fv-page-header text-center">
+    <div class="container">
+        <h1 class="fv-page-title fv-animate-slide-up">Features</h1>
+        <p class="fv-section-subtitle fv-animate-slide-up mx-auto" style="animation-delay:0.1s; max-width: 700px;">
+            Discover what makes FileVault powerful
+        </p>
+    </div>
+</section>
+<section class="fv-section">
+    <div class="container">
+        <div class="row g-4">
+            @foreach (var (icon, title, desc) in new[] {
+                ("bi-infinity", "No File Size Limits", "Upload files of any size. Our chunked upload engine streams data directly to GridFS without loading it into memory."),
+                ("bi-arrow-repeat", "Resumable Uploads", "Pause and resume uploads at any time. Each chunk is tracked independently, so you never lose progress."),
+                ("bi-collection", "GridFS Storage", "Files are stored in MongoDB GridFS, allowing for efficient storage and retrieval of files of any size."),
+                ("bi-folder-symlink", "Nested Folders", "Organize your files with unlimited folder nesting. Move files and folders freely."),
+                ("bi-link-45deg", "Secure Share Links", "Create password-protected, time-limited share links with download control."),
+                ("bi-eye-fill", "File Preview", "Preview images, PDFs, video, audio, and source code directly in the browser."),
+                ("bi-trash3", "Trash & Restore", "Deleted files go to Trash first. Restore them or permanently delete when ready."),
+                ("bi-search", "Search & Filter", "Search by name, filter by type, tags, date, and size. Sort your files any way you need."),
+                ("bi-shield-lock", "Role-Based Access", "Admin and User roles with secure cookie-based authentication and anti-forgery protection."),
+                ("bi-speedometer", "Admin Dashboard", "Manage users, view system statistics, and audit all activity from the admin panel."),
+                ("bi-hash", "SHA-256 Verification", "Every uploaded file is verified against its SHA-256 hash for integrity."),
+                ("bi-moon-stars", "Dark/Light Theme", "Toggle between dark and light themes. Respects prefers-reduced-motion.")
+            })
+            {
+                <div class="col-md-4 fv-animate-on-scroll">
+                    <div class="fv-feature-card text-center">
+                        <div class="fv-feature-icon mx-auto"><i class="bi @icon"></i></div>
+                        <h5 class="fw-800">@title</h5>
+                        <p class="opacity-75">@desc</p>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+@section Scripts { <script src="~/js/dashboard.js"></script> }
