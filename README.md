@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" />
 </p>
 
-<h1 align="center">🛡️ FileVault — Secure Cloud File Management</h1>
+<h1 align="center">FileVault — Secure Cloud File Management</h1>
 
 <p align="center">
   <strong>A modern, enterprise-grade cloud file storage platform built with ASP.NET Core 9, MongoDB & GridFS.</strong><br/>
@@ -15,19 +15,9 @@
 
 ---
 
-## 📸 Screenshots
+## Features
 
-> Replace these placeholders with actual screenshots of your running application.
-
-| Landing Page | Dashboard | File Preview |
-|:---:|:---:|:---:|
-| _screenshot_ | _screenshot_ | _screenshot_ |
-
----
-
-## ✨ Features
-
-### 🔐 Authentication & Security
+### Authentication & Security
 - Cookie-based authentication with **7-day sliding expiration**
 - **BCrypt** password hashing with automatic salt generation
 - Email confirmation tokens & password reset flow
@@ -38,7 +28,7 @@
 - Pluggable **virus scan** interface (extensible)
 - Complete **audit trail** logging with IP tracking
 
-### 📁 File Management
+### File Management
 - **Chunked resumable uploads** — no file size limit, 5MB chunks, SHA-256 integrity verification
 - Drag-and-drop upload with real-time progress tracking
 - Browse, search, filter by type/extension/tag, and sort (name, date, size)
@@ -47,7 +37,7 @@
 - File tagging, descriptions, and **version control**
 - Pagination for large file collections
 
-### 👁️ Universal File Preview (30+ formats)
+### Universal File Preview (30+ formats)
 | Category | Supported Formats |
 |---|---|
 | **Images** | JPG, PNG, GIF, BMP, WebP, SVG, ICO |
@@ -57,7 +47,7 @@
 | **Archives** | ZIP, RAR, 7Z, TAR, GZ, BZ2 (metadata extraction via SharpCompress) |
 | **Code & Text** | TXT, MD, JSON, XML, YAML, CSV, CS, JS, TS, PY, Java, CPP, SQL, PHP, Go, Rust, and more |
 
-### 🔗 Secure File Sharing
+### Secure File Sharing
 - Generate **tokenized share links** with one click
 - Optional **password protection** (BCrypt hashed)
 - Configurable **expiry** (days)
@@ -65,7 +55,7 @@
 - Access count tracking & last-accessed timestamp
 - Link **revocation** support
 
-### 🎨 Premium UI/UX
+### Premium UI/UX
 - **"Sienna & Cream"** dark-first design system (`#0d0c0b` · `#4B262F` · `#F4EBE2`)
 - Glassmorphism with `backdrop-filter: blur()`
 - Smooth micro-animations (slide-up, fade-in, scroll-triggered)
@@ -76,30 +66,30 @@
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
-┌─────────────────────────────────────────────────────┐
+┌───────────────────────────────────────────────────────┐
 │                  MIDDLEWARE PIPELINE                  │
-│  SecurityHeaders → ExceptionHandler → RateLimiter    │
-├─────────────────────────────────────────────────────┤
-│                  CONTROLLER LAYER                    │
-│  ┌──────────────────┐  ┌──────────────────────────┐ │
-│  │  MVC Controllers  │  │  RESTful API Controllers │ │
-│  │  (Razor Views)    │  │  /api/files, /api/shares │ │
-│  └────────┬──────────┘  └───────────┬─────────────┘ │
-├───────────┼─────────────────────────┼───────────────┤
-│           │     SERVICE LAYER       │                │
-│  Auth · File · Folder · Upload · Share · Audit       │
-├───────────┼─────────────────────────┼───────────────┤
-│           │     REPOSITORY LAYER    │                │
-│  UserRepo · FileRepo · FolderRepo · ShareLinkRepo   │
-├───────────┼─────────────────────────┼───────────────┤
-│           │     DATA LAYER          │                │
-│  ┌────────┴─────────────────────────┴─────────────┐ │
-│  │         MongoDB 7 + GridFS (Binary Storage)     │ │
-│  └─────────────────────────────────────────────────┘ │
-└─────────────────────────────────────────────────────┘
+│  SecurityHeaders → ExceptionHandler → RateLimiter     │
+├───────────────────────────────────────────────────────┤
+│                  CONTROLLER LAYER                     │
+│  ┌───────────────────┐  ┌───────────────────────────┐ │
+│  │  MVC Controllers  │  │  RESTful API Controllers  │ │
+│  │  (Razor Views)    │  │  /api/files, /api/shares  │ │
+│  └────────┬──────────┘  └─────────────┬─────────────┘ │
+├───────────┼───────────────────────────┼───────────────┤
+│           │     SERVICE LAYER         │               │
+│  Auth · File · Folder · Upload · Share · Audit        │
+├───────────┼───────────────────────────┼───────────────┤
+│           │     REPOSITORY LAYER      │               │
+│  UserRepo · FileRepo · FolderRepo · ShareLinkRepo     │
+├───────────┼───────────────────────────┼───────────────┤
+│           │     DATA LAYER            │               │
+│  ┌────────┴───────────────────────────┴─────────────┐ │
+│  │         MongoDB 7 + GridFS (Binary Storage)      │ │
+│  └──────────────────────────────────────────────────┘ │
+└───────────────────────────────────────────────────────┘
 ```
 
 ---
