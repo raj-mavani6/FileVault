@@ -1,0 +1,185 @@
+2026-04-27 16:09:28.802 +05:30 [INF] MongoDB indexes ensured
+2026-04-27 16:09:29.340 +05:30 [INF] Admin user already exists
+2026-04-27 16:09:32.147 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-27 16:16:17.242 +05:30 [INF] MongoDB indexes ensured
+2026-04-27 16:16:17.798 +05:30 [INF] Admin user already exists
+2026-04-27 16:16:18.253 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-27 16:17:13.962 +05:30 [INF] 📧 PASSWORD RESET for Test User 1 (user_1@filevault.com): /Auth/ResetPassword?token=9U1eKFSKRcIHLEWI0VwwP-fPTpdnhZq4CdfZjlm83WY
+2026-04-27 16:17:13.969 +05:30 [INF] Password reset requested for: user_1@filevault.com
+2026-04-27 16:32:37.951 +05:30 [INF] MongoDB indexes ensured
+2026-04-27 16:32:38.209 +05:30 [INF] Admin user already exists
+2026-04-27 16:32:38.397 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-27 16:32:50.669 +05:30 [INF] User logged in: user_1@filevault.com
+2026-04-27 16:45:50.308 +05:30 [INF] MongoDB indexes ensured
+2026-04-27 16:45:50.683 +05:30 [INF] Admin user already exists
+2026-04-27 16:45:51.104 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-27 16:49:03.030 +05:30 [INF] MongoDB indexes ensured
+2026-04-27 16:49:03.132 +05:30 [INF] Admin user already exists
+2026-04-27 16:49:03.216 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-27 16:49:31.082 +05:30 [INF] MongoDB indexes ensured
+2026-04-27 16:49:31.199 +05:30 [INF] Admin user already exists
+2026-04-27 16:49:31.331 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-27 16:53:16.479 +05:30 [INF] MongoDB indexes ensured
+2026-04-27 16:53:16.638 +05:30 [INF] Admin user already exists
+2026-04-27 16:53:16.780 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-27 16:56:03.692 +05:30 [INF] MongoDB indexes ensured
+2026-04-27 16:56:03.848 +05:30 [INF] Admin user already exists
+2026-04-27 16:56:03.986 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-27 16:56:52.090 +05:30 [INF] User logged in: user_1@filevault.com
+2026-04-27 16:57:55.282 +05:30 [INF] Upload session initiated: 69ef483b455a6d59f771c5ae for Next_Day_Stock_Prediction_Plan_v2.pdf (1 chunks)
+2026-04-27 16:57:55.292 +05:30 [INF] Upload session initiated: 69ef483b455a6d59f771c5ac for $1000 - 3TB Collection.pdf (1 chunks)
+2026-04-27 16:57:55.289 +05:30 [INF] Upload session initiated: 69ef483b455a6d59f771c5b6 for Compare.jpg (1 chunks)
+2026-04-27 16:57:55.318 +05:30 [INF] Upload session initiated: 69ef483b455a6d59f771c5b1 for Feature Plan.pdf (1 chunks)
+2026-04-27 16:57:55.325 +05:30 [INF] Upload session initiated: 69ef483b455a6d59f771c5b2 for Improved_Stock_Project_Plan_v6.pdf (1 chunks)
+2026-04-27 16:57:55.337 +05:30 [INF] Upload session initiated: 69ef483b455a6d59f771c5b3 for 69ec9104205a66c9d4cac211 (1).pptx (1 chunks)
+2026-04-27 16:57:55.338 +05:30 [INF] Upload session initiated: 69ef483b455a6d59f771c5b7 for GSEB-Std-12-Commercial-Organization-and-Management-textbook-Gujarati-Medium.pdf (5 chunks)
+2026-04-27 16:57:55.338 +05:30 [INF] Upload session initiated: 69ef483b455a6d59f771c5b5 for List.jpg (1 chunks)
+2026-04-27 16:57:55.339 +05:30 [INF] Upload session initiated: 69ef483b455a6d59f771c5b0 for Mozilla-Recovery-Key_2025-08-19_h.hell3279@gmail.com.pdf (1 chunks)
+2026-04-27 16:57:55.519 +05:30 [INF] Upload session initiated: 69ef483b455a6d59f771c5ab for AngelExcelCode-1.xlsx (2 chunks)
+2026-04-27 16:57:55.674 +05:30 [INF] Upload session initiated: 69ef483b455a6d59f771c5b4 for Food Ordering System.pdf (1 chunks)
+2026-04-27 16:57:55.674 +05:30 [INF] Upload session initiated: 69ef483b455a6d59f771c5ad for સ્વપ્ન_શિલ્પ_રેસીડેન્સી_(Swapna_Shilp_Residency)-1.pdf (1 chunks)
+2026-04-27 16:57:55.823 +05:30 [INF] Upload session initiated: 69ef483b455a6d59f771c5b8 for Monthly View.jpg (1 chunks)
+2026-04-27 16:57:55.826 +05:30 [INF] Upload session initiated: 69ef483b455a6d59f771c5b9 for Gride.jpg (1 chunks)
+2026-04-27 16:57:56.194 +05:30 [INF] Upload session initiated: 69ef483b455a6d59f771c5af for Research Documentation.docx (1 chunks)
+2026-04-27 16:57:56.250 +05:30 [INF] Upload session initiated: 69ef483b455a6d59f771c5ba for Timeline View.jpg (1 chunks)
+2026-04-27 16:57:56.267 +05:30 [INF] Upload session initiated: 69ef483b455a6d59f771c5bb for 69e9f8720e4c44352c440f97.docx (1 chunks)
+2026-04-27 16:57:56.309 +05:30 [INF] Upload session initiated: 69ef483c455a6d59f771c5bc for 1. Augmented Analytics & Natural Language Interfaces.pptx (1 chunks)
+2026-04-27 16:57:56.399 +05:30 [INF] Upload session initiated: 69ef483c455a6d59f771c5bd for 69e9f8720e4c44352c440f97 (2).docx (1 chunks)
+2026-04-27 16:57:56.450 +05:30 [INF] Upload session initiated: 69ef483c455a6d59f771c5be for 69e9f8720e4c44352c440f97 (1).docx (1 chunks)
+2026-04-27 16:57:56.527 +05:30 [INF] Upload session initiated: 69ef483c455a6d59f771c5bf for 69ec9104205a66c9d4cac211.pptx (1 chunks)
+2026-04-27 16:57:56.833 +05:30 [INF] Upload session initiated: 69ef483c455a6d59f771c5c0 for IPO.TRACER.pdf (1 chunks)
+2026-04-27 16:57:56.943 +05:30 [INF] Upload session initiated: 69ef483c455a6d59f771c5c4 for 69e9f8720e4c44352c440f97 (3).docx (1 chunks)
+2026-04-27 16:57:57.366 +05:30 [INF] Upload completed: Compare.jpg (266199 bytes), GridFS: 69ef483c455a6d59f771c5c1
+2026-04-27 16:57:57.367 +05:30 [INF] Upload completed: 69e9f8720e4c44352c440f97 (2).docx (61438 bytes), GridFS: 69ef483d455a6d59f771c5c8
+2026-04-27 16:57:57.377 +05:30 [INF] Upload completed: Mozilla-Recovery-Key_2025-08-19_h.hell3279@gmail.com.pdf (19878 bytes), GridFS: 69ef483c455a6d59f771c5c2
+2026-04-27 16:57:57.366 +05:30 [INF] Upload completed: Improved_Stock_Project_Plan_v6.pdf (356973 bytes), GridFS: 69ef483c455a6d59f771c5c6
+2026-04-27 16:57:57.366 +05:30 [INF] Upload completed: Gride.jpg (300713 bytes), GridFS: 69ef483c455a6d59f771c5c5
+2026-04-27 16:57:57.395 +05:30 [INF] Upload completed: Feature Plan.pdf (352749 bytes), GridFS: 69ef483c455a6d59f771c5c7
+2026-04-27 16:57:57.400 +05:30 [INF] Upload completed: Monthly View.jpg (380667 bytes), GridFS: 69ef483d455a6d59f771c5da
+2026-04-27 16:57:57.383 +05:30 [INF] Upload completed: 69e9f8720e4c44352c440f97 (1).docx (61438 bytes), GridFS: 69ef483d455a6d59f771c5cb
+2026-04-27 16:57:57.444 +05:30 [INF] Upload completed: 69e9f8720e4c44352c440f97 (3).docx (61438 bytes), GridFS: 69ef483d455a6d59f771c5fd
+2026-04-27 16:57:57.369 +05:30 [INF] Upload completed: List.jpg (386563 bytes), GridFS: 69ef483d455a6d59f771c5ca
+2026-04-27 16:57:57.368 +05:30 [INF] Upload completed: Next_Day_Stock_Prediction_Plan_v2.pdf (337265 bytes), GridFS: 69ef483c455a6d59f771c5c3
+2026-04-27 16:57:57.405 +05:30 [INF] Upload completed: Research Documentation.docx (181295 bytes), GridFS: 69ef483d455a6d59f771c5c9
+2026-04-27 16:57:57.391 +05:30 [INF] Upload completed: Timeline View.jpg (213180 bytes), GridFS: 69ef483d455a6d59f771c5e9
+2026-04-27 16:57:57.691 +05:30 [INF] Upload completed: સ્વપ્ન_શિલ્પ_રેસીડેન્સી_(Swapna_Shilp_Residency)-1.pdf (956808 bytes), GridFS: 69ef483d455a6d59f771c601
+2026-04-27 16:57:57.692 +05:30 [INF] Upload completed: IPO.TRACER.pdf (503964 bytes), GridFS: 69ef483d455a6d59f771c602
+2026-04-27 16:57:57.366 +05:30 [INF] Upload completed: 69e9f8720e4c44352c440f97.docx (61438 bytes), GridFS: 69ef483d455a6d59f771c5d9
+2026-04-27 16:57:58.247 +05:30 [INF] Upload completed: $1000 - 3TB Collection.pdf (3506273 bytes), GridFS: 69ef483d455a6d59f771c60e
+2026-04-27 16:57:58.248 +05:30 [INF] Upload completed: 69ec9104205a66c9d4cac211.pptx (4247258 bytes), GridFS: 69ef483d455a6d59f771c61e
+2026-04-27 16:57:58.250 +05:30 [INF] Upload completed: 1. Augmented Analytics & Natural Language Interfaces.pptx (4247258 bytes), GridFS: 69ef483d455a6d59f771c61a
+2026-04-27 16:57:58.253 +05:30 [INF] Upload completed: 69ec9104205a66c9d4cac211 (1).pptx (4247258 bytes), GridFS: 69ef483d455a6d59f771c615
+2026-04-27 16:57:58.253 +05:30 [INF] Upload completed: AngelExcelCode-1.xlsx (5425686 bytes), GridFS: 69ef483d455a6d59f771c620
+2026-04-27 16:57:59.350 +05:30 [INF] Upload completed: GSEB-Std-12-Commercial-Organization-and-Management-textbook-Gujarati-Medium.pdf (23402652 bytes), GridFS: 69ef483e455a6d59f771c673
+2026-04-27 16:57:59.393 +05:30 [INF] Upload completed: Food Ordering System.pdf (2800960 bytes), GridFS: 69ef483d455a6d59f771c60a
+2026-04-27 16:58:09.771 +05:30 [INF] Upload aborted: 69ef483b455a6d59f771c5ad
+2026-04-27 16:58:10.600 +05:30 [INF] Upload aborted: 69ef483b455a6d59f771c5ab
+2026-04-27 16:58:12.495 +05:30 [INF] Upload aborted: 69ef483b455a6d59f771c5b1
+2026-04-27 16:58:13.286 +05:30 [INF] Upload aborted: 69ef483b455a6d59f771c5ae
+2026-04-27 16:58:14.407 +05:30 [INF] Upload aborted: 69ef483b455a6d59f771c5b2
+2026-04-27 16:58:15.821 +05:30 [INF] Upload aborted: 69ef483b455a6d59f771c5b0
+2026-04-27 16:58:19.200 +05:30 [INF] Upload aborted: 69ef483b455a6d59f771c5af
+2026-04-27 16:58:21.591 +05:30 [INF] Upload aborted: 69ef483b455a6d59f771c5b3
+2026-04-27 16:58:22.561 +05:30 [INF] Upload aborted: 69ef483c455a6d59f771c5bc
+2026-04-27 16:58:23.614 +05:30 [INF] Upload aborted: 69ef483c455a6d59f771c5bf
+2026-04-27 16:58:27.160 +05:30 [INF] Upload aborted: 69ef483b455a6d59f771c5b4
+2026-04-27 16:58:28.382 +05:30 [INF] Upload aborted: 69ef483c455a6d59f771c5c0
+2026-04-27 16:58:30.999 +05:30 [INF] Upload aborted: 69ef483b455a6d59f771c5ba
+2026-04-27 16:58:31.839 +05:30 [INF] Upload aborted: 69ef483b455a6d59f771c5b8
+2026-04-27 16:58:33.077 +05:30 [INF] Upload aborted: 69ef483b455a6d59f771c5b5
+2026-04-27 16:58:33.870 +05:30 [INF] Upload aborted: 69ef483b455a6d59f771c5b9
+2026-04-27 16:58:35.374 +05:30 [INF] Upload aborted: 69ef483b455a6d59f771c5b6
+2026-04-27 16:58:36.094 +05:30 [INF] Upload aborted: 69ef483b455a6d59f771c5b7
+2026-04-27 17:00:35.369 +05:30 [INF] MongoDB indexes ensured
+2026-04-27 17:00:35.514 +05:30 [INF] Admin user already exists
+2026-04-27 17:00:35.634 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-27 17:00:58.444 +05:30 [INF] User logged in: user_1@filevault.com
+2026-04-27 17:05:55.199 +05:30 [INF] MongoDB indexes ensured
+2026-04-27 17:05:55.757 +05:30 [INF] Admin user already exists
+2026-04-27 17:05:56.202 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-27 17:06:06.393 +05:30 [INF] User logged in: user_1@filevault.com
+2026-04-27 17:11:45.530 +05:30 [INF] MongoDB indexes ensured
+2026-04-27 17:11:46.031 +05:30 [INF] Admin user already exists
+2026-04-27 17:11:46.445 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-27 17:12:09.871 +05:30 [INF] User logged in: user_1@filevault.com
+2026-04-27 17:12:37.024 +05:30 [INF] Upload session initiated: 69ef4baca12aeee80f20b041 for સ્વપ્ન_શિલ્પ_રેસીડેન્સી_(Swapna_Shilp_Residency)-1.pdf (1 chunks)
+2026-04-27 17:12:37.411 +05:30 [INF] Upload completed: સ્વપ્ન_શિલ્પ_રેસીડેન્સી_(Swapna_Shilp_Residency)-1.pdf (956808 bytes), GridFS: 69ef4bada12aeee80f20b042
+2026-04-27 17:14:58.450 +05:30 [INF] MongoDB indexes ensured
+2026-04-27 17:14:58.912 +05:30 [INF] Admin user already exists
+2026-04-27 17:14:59.279 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-27 17:15:08.127 +05:30 [INF] User logged in: user_1@filevault.com
+2026-04-27 17:15:16.775 +05:30 [INF] Upload session initiated: 69ef4c4c8306a6d0e2e20d28 for સ્વપ્ન_શિલ્પ_રેસીડેન્સી_(Swapna_Shilp_Residency)-1.pdf (1 chunks)
+2026-04-27 17:15:17.349 +05:30 [INF] Upload completed: સ્વપ્ન_શિલ્પ_રેસીડેન્સી_(Swapna_Shilp_Residency)-1.pdf (956808 bytes), GridFS: 69ef4c4d8306a6d0e2e20d29
+2026-04-27 17:22:39.179 +05:30 [INF] MongoDB indexes ensured
+2026-04-27 17:22:39.523 +05:30 [INF] Admin user already exists
+2026-04-27 17:22:39.808 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-27 17:23:02.482 +05:30 [INF] MongoDB indexes ensured
+2026-04-27 17:23:02.688 +05:30 [INF] Admin user already exists
+2026-04-27 17:23:02.917 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-27 17:23:09.259 +05:30 [INF] User logged in: user_1@filevault.com
+2026-04-27 17:38:46.492 +05:30 [INF] MongoDB indexes ensured
+2026-04-27 17:38:46.681 +05:30 [INF] Admin user already exists
+2026-04-27 17:38:46.835 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-27 17:38:54.070 +05:30 [INF] User logged in: user_1@filevault.com
+2026-04-27 17:39:11.610 +05:30 [ERR] Unhandled exception occurred
+System.InvalidOperationException: Invalid non-ASCII or control character in header: 0x000D
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowInvalidHeaderCharacter(Char ch)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ValidateHeaderValueCharacters(String headerName, StringValues headerValues, Func`2 encodingSelector)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.SetValueFast(String key, StringValues value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_Item(String key, StringValues value)
+   at FileVault.Web.Controllers.FilesController.Preview(String id) in F:\Antigravity Files\FileVault\src\FileVault.Web\Controllers\FilesController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at FileVault.Web.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in F:\Antigravity Files\FileVault\src\FileVault.Web\Middleware\ExceptionHandlingMiddleware.cs:line 21
+2026-04-27 17:39:13.485 +05:30 [ERR] Unhandled exception occurred
+System.InvalidOperationException: Invalid non-ASCII or control character in header: 0x000D
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowInvalidHeaderCharacter(Char ch)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ValidateHeaderValueCharacters(String headerName, StringValues headerValues, Func`2 encodingSelector)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.SetValueFast(String key, StringValues value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_Item(String key, StringValues value)
+   at FileVault.Web.Controllers.FilesController.Preview(String id) in F:\Antigravity Files\FileVault\src\FileVault.Web\Controllers\FilesController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at FileVault.Web.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in F:\Antigravity Files\FileVault\src\FileVault.Web\Middleware\ExceptionHandlingMiddleware.cs:line 21
+2026-04-27 17:48:13.379 +05:30 [INF] MongoDB indexes ensured
+2026-04-27 17:48:13.554 +05:30 [INF] Admin user already exists
+2026-04-27 17:48:13.717 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-27 17:48:21.485 +05:30 [INF] User logged in: user_1@filevault.com
+2026-04-27 17:51:01.928 +05:30 [INF] MongoDB indexes ensured
+2026-04-27 17:51:02.256 +05:30 [INF] Admin user already exists
+2026-04-27 17:51:02.494 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-27 17:51:23.329 +05:30 [INF] User logged in: user_1@filevault.com
+2026-04-27 17:54:14.107 +05:30 [INF] MongoDB indexes ensured
+2026-04-27 17:54:14.235 +05:30 [INF] Admin user already exists
+2026-04-27 17:54:14.364 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-27 17:54:21.097 +05:30 [INF] User logged in: user_1@filevault.com
+2026-04-27 17:54:38.061 +05:30 [INF] MongoDB indexes ensured
+2026-04-27 17:54:38.184 +05:30 [INF] Admin user already exists
+2026-04-27 17:54:38.328 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-27 17:54:43.194 +05:30 [INF] User logged in: user_1@filevault.com

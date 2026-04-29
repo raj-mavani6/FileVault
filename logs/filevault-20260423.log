@@ -1,0 +1,26 @@
+2026-04-23 15:39:06.072 +05:30 [INF] MongoDB indexes ensured
+2026-04-23 15:39:06.246 +05:30 [INF] Admin user already exists
+2026-04-23 15:39:06.425 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-23 15:39:17.940 +05:30 [INF] User logged in: user_1@filevault.com
+2026-04-23 15:43:54.537 +05:30 [INF] MongoDB indexes ensured
+2026-04-23 15:43:54.702 +05:30 [INF] Admin user already exists
+2026-04-23 15:43:54.854 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-23 15:44:02.967 +05:30 [INF] User logged in: user_1@filevault.com
+2026-04-23 15:51:09.177 +05:30 [INF] MongoDB indexes ensured
+2026-04-23 15:51:12.473 +05:30 [INF] Default admin user created: admin@filevault.local / Admin@123
+2026-04-23 15:51:12.945 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-23 15:53:30.217 +05:30 [INF] 📧 EMAIL CONFIRMATION for User 11 (user_11@filevault.com): /Auth/ConfirmEmail?token=Mlh9PIzyC5XwoYwhkJ_6WaudVutCq0FiBZtnheEDKaM
+2026-04-23 15:53:30.395 +05:30 [INF] User registered: user_11@filevault.com
+2026-04-23 15:53:33.285 +05:30 [INF] User logged in: user_11@filevault.com
+2026-04-23 15:54:00.764 +05:30 [INF] Upload session initiated: 69e9f340d34bf7ff15791ae1 for 1. HTML.docx (1 chunks)
+2026-04-23 15:54:01.787 +05:30 [INF] Upload completed: 1. HTML.docx (75154 bytes), GridFS: 69e9f341d34bf7ff15791ae2
+2026-04-23 16:01:50.997 +05:30 [INF] MongoDB indexes ensured
+2026-04-23 16:01:51.612 +05:30 [INF] Default admin user created: admin@filevault.local / Admin@123
+2026-04-23 16:01:51.778 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-23 16:02:07.626 +05:30 [INF] User logged in: user_1@filevault.com
+2026-04-23 16:02:51.027 +05:30 [INF] User logged in: user_2@filevault.com
+2026-04-23 16:15:31.292 +05:30 [INF] User logged in: user_1@filevault.com
+2026-04-23 16:16:09.961 +05:30 [INF] Upload session initiated: 69e9f8710e4c44352c440f94 for 7. C Programming.docx (1 chunks)
+2026-04-23 16:16:10.286 +05:30 [INF] Upload completed: 7. C Programming.docx (61438 bytes), GridFS: 69e9f8720e4c44352c440f95
+2026-04-23 16:17:08.119 +05:30 [INF] Upload session initiated: 69e9f8ac0e4c44352c440f99 for Raj_Mavani_LearningSheet - HTML.pdf (1 chunks)
+2026-04-23 16:17:08.197 +05:30 [INF] Upload completed: Raj_Mavani_LearningSheet - HTML.pdf (82338 bytes), GridFS: 69e9f8ac0e4c44352c440f9a

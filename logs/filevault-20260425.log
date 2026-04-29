@@ -1,0 +1,6 @@
+2026-04-25 15:52:28.983 +05:30 [INF] MongoDB indexes ensured
+2026-04-25 15:52:29.628 +05:30 [INF] Admin user already exists
+2026-04-25 15:52:30.041 +05:30 [INF] FileVault is starting on https://localhost:5001
+2026-04-25 15:52:43.413 +05:30 [INF] User logged in: user_1@filevault.com
+2026-04-25 15:53:30.442 +05:30 [INF] Upload session initiated: 69ec96229d071794d670d899 for Research Documentation.docx (1 chunks)
+2026-04-25 15:53:30.992 +05:30 [INF] Upload completed: Research Documentation.docx (181295 bytes), GridFS: 69ec96229d071794d670d89a
