@@ -94,7 +94,7 @@
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 FileVault/
