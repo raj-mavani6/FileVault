@@ -138,7 +138,7 @@ FileVault/
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 | Layer | Technology | Version |
 |---|---|---|
@@ -158,7 +158,7 @@ FileVault/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - [.NET 9.0 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
@@ -194,7 +194,7 @@ The database seeder creates a test account on first run:
 
 ---
 
-## 🌐 API Reference
+## API Reference
 
 ### Files — `/api/files`
 | Method | Endpoint | Description |
@@ -241,7 +241,7 @@ The database seeder creates a test account on first run:
 
 ---
 
-## 💾 Database Collections
+## Database Collections
 
 | Collection | Purpose |
 |---|---|
@@ -256,7 +256,7 @@ The database seeder creates a test account on first run:
 
 ---
 
-## 🔧 Reverse Proxy Configuration
+## Reverse Proxy Configuration
 
 ### Nginx
 ```nginx
@@ -277,17 +277,7 @@ proxy_request_buffering off;    # Stream directly
 
 ---
 
-## 🧪 Testing
-
-```bash
-dotnet test tests/FileVault.Tests/
-```
-
-Tests cover: AuthService · UploadService · ShareService
-
----
-
-## 🔗 Related
+## Related
 
 - **[FileVaultAdmin](../FileVaultAdmin)** — Dedicated Admin Control Panel for platform management
 
